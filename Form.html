@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=UTF-8">
+			<title>Сайт Шпаргалка html</title>
+	</head>
+		
+		<form action="" method="post">
+	<!--Блок с полями ввода-->				
+					<fieldset>
+					<legend>Личные данные</legend>
+					<p><label>Имя пользователя:<br> <input type="text" name="username" size="100" maxlength="80"></label></p>
+					<p><label>Почта:           <br> <input type="email" name="email" size="100" maxlength="80"></label></p>
+					<p><label>Пароль:          <br> <input type="password" name="password" size="50" maxlength="40"></label></p>
+						
+						<p><label>Ваше сообщение<br>
+						<textarea name="message" cols="30" rols="7"></textarea></label></p>
+					</fieldset>
+	<!--Блок с выбором-->				
+					<fieldset>
+					<legend>О Вас</legend>
+					
+							<p>Как Вы нас нашли?</p>
+							<p>Поисковая выдача<input type="radio" name="istothnik" value="poisk"></p>
+							<p>Контекстная реклама<input type="radio" name="istothnik" value="reklama"></p>
+							<p>Социальные сети<input type="radio" name="istothnik" value="sm"></p>
+
+								<p>Какие машины Вас интерресуют<br>
+								<input type="checkbox" name="marka" value="mers">Мерседес<br>
+								<input type="checkbox" name="marka" value="Yava" checked>Ява<br>
+								<input type="checkbox" name="marka" value="IGOda">Иж Ода<br>
+								<input type="checkbox" name="marka" value="YAMZ">ЯМЗ</p><br>
+								
+										<p>Какой тип людей Вы предпочитаете?<br>
+										<select name="people" size="5" multiple="multiple">
+										<option value="razdrazenniy">Раздраженный</option>
+										<option value="bezumniy" selected>Безумный</option>
+										<option value="poyehavshiy">Поехавший</option>
+										<option value="bezves">Безпричинновеселый</option>
+										<option value="BELORUS">Бэлорус</option>
+										<option value="Neznau">Нинаю</option>
+										</select>
+					</fieldset>
+	<!--Загрузка файла-->				
+					<fieldset>
+					<legend>Ваша бричка</legend>
+								<p>Загрузите фото вашего автомобильчика<br>
+								<input type="file" name="apic">
+								<br><br>
+								<!--Кнопка-картинка-->
+								<input type="image" src="images/222.png" width="50" height="50"></p>
+					</fieldset>			        
+												<!--Кнопка-->
+												<br><input type="submit" value="Отправить">
+</form>
+	<body>
+	</body>
